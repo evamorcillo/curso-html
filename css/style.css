@@ -1,0 +1,322 @@
+body{
+    -webkit-font-smoothing: antialiased;
+}
+h1{
+    font-size: 44px;
+}
+
+h2{
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    line-height: 1.2em;
+}
+
+h3{
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    line-height: 1.2em;
+}
+
+p{
+    font-size:  16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height: 1.3em;
+    
+}
+
+button{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+.hcabecera{
+    color: #f5f0ed;
+    text-align: center;
+    
+}
+
+.pcabecera{
+    padding: 30px 0 0 0;
+    color: #f5f0ed;
+    text-align: center;
+    
+}
+
+.logo{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.menu{
+    background-color: #d03b40;
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    text-align: center;
+    line-height: 0px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.icon-menu-bar{
+    background-color: #ded6c0;
+    width: 30px;
+    height: 5px;
+    border-radius: 2.5px;
+    display: inline-block;
+    margin-top: 4px;
+    
+}
+
+.fondo-cabecera{
+    background-image: url(../img/fondo1.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.line{
+    background-color: #f5f0ed;
+    height: 2px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.seccion-cabecera{
+    padding: 40px 10px 100px 10px;
+}
+
+.seccion-brunch{
+    background-color: #d03b40;
+    padding-top: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 55px;
+}
+
+.hbrunch{
+    color: #ded6c0;
+    text-align: center;
+}
+
+.pbrunch{
+    margin-top: 30px;   
+    color: #ded6c0;
+    text-align: center;
+}
+
+.seccion-fiesta{
+    background-color: #ded6c0;
+    padding-top: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 55px;
+}
+
+.hfiesta{
+    color: #d03b40;
+    text-align: center;
+}
+
+.pfiesta{
+    margin-top: 30px;   
+    color: #d03b40;
+    text-align: center;
+}
+
+.seccion-desayuno{
+    background-image: url(../img/Fondo2.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 75px 10px;
+    text-align: center;
+        
+}
+
+.hdesayuno{
+    color: #f5f0ed;
+    text-align: center;
+}
+
+.pdesayuno{
+    margin-top: 30px;
+    color: #f5f0ed;
+    text-align: center;
+}
+
+.button-productos{
+    color: #f5f0ed;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f5f0ed;
+    background: none;
+    padding: 10px 25px 10px 25px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.icono-producto{
+    height: 80px;
+}
+.seccion-pan{
+    background-color: #f5f0ed;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.hpan{
+    color: #3c3c3b;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.ppan{
+    text-align: left;
+    margin-top: 5px;
+}
+
+.seccion-tartas{
+    background-color: #f5f0ed;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.htartas{
+    color: #3c3c3b;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.ptartas{
+    text-align: left;
+    margin-top: 5px;
+}
+.seccion-dulces{
+    background-color: #f5f0ed;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hdulces{
+    color: #3c3c3b;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.pdulces{
+    text-align: left;
+    margin-top: 5px;
+}
+
+.seccion-eco{
+    background-color: #f5f0ed;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+
+.heco{
+    color: #3c3c3b;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.peco{
+    text-align: left;
+    margin-top: 5px;
+}
+
+.seccion-contacto{
+    background-color: #ded6c0;
+    padding-top: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 55px;
+    text-align: center;
+}
+
+.hcontacto{
+    color: #d03b40;
+    text-align: center;
+}
+
+.pcontacto{
+    margin-top: 30px;   
+    color: #d03b40;
+    text-align: center;
+}
+
+.link-contacto{
+    color: #d03b40;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    padding-top: 10px;
+    display: inline-block;
+}
+.seccion-estamos{
+    background-color: #d03b40;
+    padding-top: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 55px;
+    text-align: center;
+}
+
+.hestamos{
+    color: #ded6c0;
+    text-align: center;
+}
+
+.pestamosprimero{
+    margin-top: 30px;   
+    color: #ded6c0;
+    text-align: center;
+}
+.pestamossegundo{
+    color: #ded6c0;
+    text-align: center;
+}
+.link-estamos{
+    color: #ded6c0;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.seccion-firma{
+  background-color: #241d1b;  
+}
+
+.pfecha{
+    color: #f5f0ed;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.pderechos{
+    color: #f5f0ed;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    
+}
