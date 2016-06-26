@@ -53,7 +53,7 @@ button{
     padding-left: 20px;
 }
 
-.menu{
+.botonmenu{
     background-color: #d03b40;
     width: 40px;
     position: absolute;
@@ -63,6 +63,59 @@ button{
     line-height: 0px;
     padding-top: 5px;
     padding-bottom: 8px;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.menu{
+    position: fixed;
+    left: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background: #d03b40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: left 200ms ease;
+}
+
+.menu .cerrar{
+    display: none;
+}
+
+.menu.visible{
+    display: flex;
+    left: 0;
+}
+
+.menu.visible .cerrar{
+    display: block;
+}
+
+.cerrar{
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    
+}
+
+.cerrar svg path{
+    fill: #ded6c0;
+}
+
+li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #ded6c0;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+ul{
+    text-align: center;
 }
 
 .icon-menu-bar{
