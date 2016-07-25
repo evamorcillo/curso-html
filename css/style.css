@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     -webkit-font-smoothing: antialiased;
 }
@@ -105,13 +109,18 @@ button{
 .cerrar svg path{
     fill: #ded6c0;
 }
-
 li{
+    padding: 20px;
+}
+li a{
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     color: #ded6c0;
     margin-top: 35px;
     margin-bottom: 35px;
+    text-decoration: none;
+    word-spacing: 0.3em;
+    
 }
 
 ul{
@@ -131,8 +140,7 @@ ul{
 .fondo-cabecera{
     background-image: url(../img/fondo1.jpg);
     background-size: cover;
-    background-position: center center;
-    
+    background-position: center center;   
 }
 
 .line{
@@ -221,6 +229,7 @@ ul{
 .icono-producto{
     height: 80px;
 }
+
 .seccion-pan{
     background-color: #f5f0ed;
     text-align: center;
@@ -228,6 +237,7 @@ ul{
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .hpan{
     color: #3c3c3b;
     text-align: left;
@@ -244,8 +254,7 @@ ul{
     text-align: center;
     padding-top: 40px;
     padding-left: 10px;
-    padding-right: 10px;
-    
+    padding-right: 10px;    
 }
 
 .htartas{
@@ -258,6 +267,7 @@ ul{
     text-align: left;
     margin-top: 5px;
 }
+
 .seccion-dulces{
     background-color: #f5f0ed;
     text-align: center;
@@ -325,6 +335,7 @@ ul{
     padding-top: 10px;
     display: inline-block;
 }
+
 .seccion-estamos{
     background-color: #d03b40;
     padding-top: 55px;
@@ -344,10 +355,12 @@ ul{
     color: #ded6c0;
     text-align: center;
 }
+
 .pestamossegundo{
     color: #ded6c0;
     text-align: center;
 }
+
 .link-estamos{
     color: #ded6c0;
     text-decoration: none;
@@ -370,6 +383,16 @@ ul{
 .pderechos{
     color: #f5f0ed;
     padding-bottom: 30px;
-    padding-left: 20px;
-    
+    padding-left: 20px;    
+}
+
+@media screen and (min-width: 600px){
+    .contenedor{
+        overflow: hidden;
+    }
+    .seccion-brunch,.seccion-fiesta,.seccion-contacto,.seccion-estamos{
+        float: left;
+        width: 50%;
+    }
+  
 }
