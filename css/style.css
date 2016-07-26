@@ -396,3 +396,64 @@ ul{
     }
   
 }
+@media screen and (min-width: 1200px){
+   
+    .hcabecera{
+        font-size: 44px;
+    }
+    
+    .seccion-cabecera{
+        padding: 150px 10px 200px 10px;
+    }
+    
+    .pcabecera{
+        padding: 30px 300px 0 300px;
+    }
+    
+    .seccion-fiesta,.seccion-brunch,.seccion-contacto,.seccion-estamos{
+        padding-top: 85px;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 85px;
+    }
+    
+    .seccion-desayuno{
+        padding: 150px 320px;
+    }
+    
+    .seccion-firma{
+        overflow: hidden;
+    }
+    
+    .pfecha{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        float: left;
+    }
+    
+    .pderechos{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 175px;
+    }
+    
+    .seccion-productos{
+        overflow: hidden;
+    }
+    
+    .seccion-pan,.seccion-tartas,.seccion-dulces,.seccion-eco{
+        float: left;
+        width: 50%;
+        overflow: hidden;
+    }
+    
+    .icono-producto{
+        float: left;
+        height: 150px;
+        margin-left: 20px;
+    }
+    
+    .htartas,.ptartas,.peco,.heco,.hdulces,.pdulces,.hpan,.ppan{
+        padding-left: 185px;
+    }
+}
