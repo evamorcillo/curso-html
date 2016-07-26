@@ -396,6 +396,25 @@ ul{
     }
   
 }
+
+@media screen and (min-width: 750px){
+    
+    .icono-producto{
+        float: left;
+        height: 100px;
+        margin-left: 20px;
+    }
+    
+    .htartas,.ptartas,.peco,.heco,.hdulces,.pdulces,.hpan,.ppan{
+        padding-left: 140px;
+    }
+    
+    .seccion-eco{
+        padding-bottom: 50px;
+    }
+    
+}
+
 @media screen and (min-width: 1200px){
    
     .hcabecera{
@@ -437,17 +456,17 @@ ul{
         padding-left: 175px;
     }
     
-    .seccion-productos{
+     .seccion-productos{
         overflow: hidden;
     }
     
-    .seccion-pan,.seccion-tartas,.seccion-dulces,.seccion-eco{
+     .seccion-pan,.seccion-tartas,.seccion-dulces,.seccion-eco{
         float: left;
         width: 50%;
         overflow: hidden;
     }
     
-    .icono-producto{
+     .icono-producto{
         float: left;
         height: 150px;
         margin-left: 20px;
@@ -456,4 +475,5 @@ ul{
     .htartas,.ptartas,.peco,.heco,.hdulces,.pdulces,.hpan,.ppan{
         padding-left: 185px;
     }
+
 }
