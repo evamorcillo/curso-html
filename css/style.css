@@ -83,6 +83,7 @@ button{
     flex-direction: column;
     justify-content: center;
     transition: left 200ms ease;
+    z-index: 9999999;
 }
 
 .menu .cerrar{
@@ -389,10 +390,12 @@ ul{
 @media screen and (min-width: 600px){
     .contenedor{
         overflow: hidden;
+        position: relative;
     }
     .seccion-brunch,.seccion-fiesta,.seccion-contacto,.seccion-estamos{
         float: left;
         width: 50%;
+        position: relative;
     }
   
 }
@@ -416,8 +419,13 @@ ul{
 }
 
 @media screen and (min-width: 1200px){
+    
+    .logo{
+        padding-top: 30px;
+        padding-left: 30px;
+    }
    
-    .hcabecera{
+    .hcabecera,.hdesayuno{
         font-size: 44px;
     }
     
@@ -458,22 +466,52 @@ ul{
     
      .seccion-productos{
         overflow: hidden;
+        position: relative;
     }
     
      .seccion-pan,.seccion-tartas,.seccion-dulces,.seccion-eco{
         float: left;
         width: 50%;
         overflow: hidden;
+        position: relative;
+        height: 220px;
     }
     
      .icono-producto{
         float: left;
         height: 150px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     .htartas,.ptartas,.peco,.heco,.hdulces,.pdulces,.hpan,.ppan{
-        padding-left: 185px;
+        padding-left: 220px;
     }
-
+    
+    .botonmenu{
+        display: none;
+    }
+    
+    .menu{
+        position: absolute;
+        left: 0;
+        background: none;
+        transition: none;
+        bottom: auto;
+        margin-top: 34px;
+    }
+    
+    .menu ul{
+        overflow: hidden;
+        text-align: right;
+        padding-right: 10px;
+    }
+     
+    .menu ul li{
+        display: inline-block;
+    }
+    
+    .menu ul li a {
+        color: white;
+    }
+    
 }
